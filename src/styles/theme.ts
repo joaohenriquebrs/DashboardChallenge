@@ -2,7 +2,8 @@ const theme = {
   colors: {
     blue: '#4684C0',
     white: '#FFFFFF',
-    black: '#000000'
+    black: '#000000',
+    project: '#F9F9F9'
   },
   fonts: {
     primary: {
