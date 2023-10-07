@@ -214,3 +214,94 @@ export const ButtonContainer = styled.div`
     margin-top: -60px;
   }
 `;
+
+export const ContainerMain = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 88%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+`;
+
+export const ContentContainer = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+`;
+
+export const GridContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: -45px;
+`;
+
+export const Block = styled.div`
+  width: 48%;
+  margin-left: 24px;
+  height: 428px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+`;
+
+export const BlockHeader = styled.div`
+  height: 16.5%;
+  display: flex;
+  align-items: center;
+  margin-left: 33px;
+  color: #5b43d9;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+`;
+
+export const BlockContent = styled.div`
+  flex-grow: 1;
+  background-color: #303030;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+`;
+
+export const RightSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 404px;
+  height: 896px;
+  margin-top: 20px;
+`;
+
+export const RightBlock = styled.div`
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+`;
+
+export const RightHeader = styled.div`
+  height: 7.8%;
+  display: flex;
+  align-items: center;
+  margin-left: 33px;
+  color: #5b43d9;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+`;
+
+export const RightContent = styled.div`
+  flex-grow: 1;
+  background-color: #303030;
+  height: 92.2%;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+`;

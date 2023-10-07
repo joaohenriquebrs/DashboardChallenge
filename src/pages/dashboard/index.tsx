@@ -10,7 +10,17 @@ import {
   SelectsDiv,
   ClearButton,
   FilterButton,
-  ButtonContainer
+  ButtonContainer,
+  ContentContainer,
+  GridContainer,
+  Block,
+  RightSection,
+  RightBlock,
+  ContainerMain,
+  BlockHeader,
+  BlockContent,
+  RightHeader,
+  RightContent
 } from './styles';
 
 import { AgeRangeSlider } from 'components';
@@ -90,6 +100,36 @@ export const Dashboard = () => {
           </SelectsDiv>
         </HeaderContainer>
       </PageContainer>
+
+      <ContainerMain>
+        <ContentContainer>
+          <GridContainer>
+            <Block>
+              <BlockHeader>Momento</BlockHeader>
+              <BlockContent>Conteúdo do Bloco 1</BlockContent>
+            </Block>
+            <Block>
+              <BlockHeader>Faixa Etária</BlockHeader>
+              <BlockContent>Conteúdo do Bloco 2</BlockContent>
+            </Block>
+            <Block>
+              <BlockHeader>Horário</BlockHeader>
+              <BlockContent>Conteúdo do Bloco 3</BlockContent>
+            </Block>
+            <Block>
+              <BlockHeader>Gênero</BlockHeader>
+              <BlockContent>Conteúdo do Bloco 4</BlockContent>
+            </Block>
+          </GridContainer>
+        </ContentContainer>
+
+        <RightSection>
+          <RightBlock>
+            <RightHeader>Ocorrências</RightHeader>
+            <RightContent>Conteúdo do Bloco 4</RightContent>
+          </RightBlock>
+        </RightSection>
+      </ContainerMain>
     </>
   );
 };
