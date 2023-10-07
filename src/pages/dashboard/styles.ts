@@ -31,6 +31,18 @@ export const FilterContainer = styled.div`
   margin-top: 52px;
   margin-left: 60px;
   flex-direction: column;
+
+  @media (min-width: 1420px) and (max-width: 1540px) {
+    margin-left: 50px;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1420px) {
+    margin-left: 50px;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    margin-left: 40px;
+  }
 `;
 
 export const FilterLabel = styled.h3`
@@ -42,6 +54,22 @@ export const FilterLabel = styled.h3`
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
+
+  @media (min-width: 1540px) and (max-width: 1700px) {
+    font-size: 13px;
+  }
+
+  @media (min-width: 1420px) and (max-width: 1540px) {
+    font-size: 12px;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1420px) {
+    font-size: 11px;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    font-size: 10px;
+  }
 `;
 
 export const FilterSelect = styled.div`
@@ -56,6 +84,22 @@ export const FilterSelect = styled.div`
 
   :hover {
     cursor: pointer;
+  }
+
+  @media (min-width: 1540px) and (max-width: 1730px) {
+    width: 165px;
+  }
+
+  @media (min-width: 1420px) and (max-width: 1540px) {
+    width: 155px;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1420px) {
+    width: 130px;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    width: 125px;
   }
 `;
 
@@ -86,6 +130,22 @@ export const ClearButton = styled.button`
   border-bottom: 1px solid #5b43d9;
   cursor: pointer;
   margin-right: 20px;
+
+  @media (min-width: 1540px) and (max-width: 1700px) {
+    font-size: 13px;
+  }
+
+  @media (min-width: 1420px) and (max-width: 1540px) {
+    font-size: 13px;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1420px) {
+    font-size: 12px;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    font-size: 12px;
+  }
 `;
 
 export const FilterButton = styled.button`
@@ -100,9 +160,57 @@ export const FilterButton = styled.button`
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+
+  @media (min-width: 1700px) and (max-width: 1860px) {
+    width: 99px;
+    font-size: 15px;
+  }
+
+  @media (min-width: 1540px) and (max-width: 1700px) {
+    width: 89px;
+    font-size: 13px;
+  }
+
+  @media (min-width: 1420px) and (max-width: 1540px) {
+    width: 79px;
+    font-size: 11px;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1420px) {
+    width: 74px;
+    font-size: 12px;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    width: 84px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
 `;
 
 export const ButtonContainer = styled.div`
   margin-left: 180px;
   margin-top: 70px;
+
+  @media (min-width: 1700px) and (max-width: 1860px) {
+    margin-left: 110px;
+  }
+
+  @media (min-width: 1540px) and (max-width: 1700px) {
+    margin-left: 70px;
+  }
+
+  @media (min-width: 1420px) and (max-width: 1540px) {
+    margin-left: 60px;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1420px) {
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    margin-left: 20px;
+    margin-top: -60px;
+  }
 `;

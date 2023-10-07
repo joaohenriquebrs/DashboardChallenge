@@ -23,12 +23,48 @@ const Container = styled.div`
   align-items: flex-end;
   width: 189px;
   margin-top: 20px;
+
+  @media (min-width: 1700px) and (max-width: 1860px) {
+    width: 159px;
+  }
+
+  @media (min-width: 1540px) and (max-width: 1700px) {
+    width: 139px;
+  }
+
+  @media (min-width: 1380px) and (max-width: 1540px) {
+    width: 124px;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1380px) {
+    width: 119px;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    width: 109px;
+  }
 `;
 
 const Range = styled.p`
   margin-top: -35px;
   font-size: 14px;
   color: #cac5ca;
+
+  @media (min-width: 1540px) and (max-width: 1700px) {
+    font-size: 13px;
+  }
+
+  @media (min-width: 1380px) and (max-width: 1540px) {
+    font-size: 12px;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1380px) {
+    font-size: 11px;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    font-size: 11px;
+  }
 `;
 
 const AgeRangeSlider = () => {
