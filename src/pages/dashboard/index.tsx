@@ -7,7 +7,10 @@ import {
   FilterContainer,
   FilterSelect,
   Select,
-  SelectsDiv
+  SelectsDiv,
+  ClearButton,
+  FilterButton,
+  ButtonContainer
 } from './styles';
 
 import { AgeRangeSlider } from 'components';
@@ -79,6 +82,11 @@ export const Dashboard = () => {
               <FilterLabel>Faixa etária</FilterLabel>
               <AgeRangeSlider />
             </FilterContainer>
+
+            <ButtonContainer>
+              <ClearButton>Limpar filtro</ClearButton>
+              <FilterButton>Filtrar</FilterButton>
+            </ButtonContainer>
           </SelectsDiv>
         </HeaderContainer>
       </PageContainer>

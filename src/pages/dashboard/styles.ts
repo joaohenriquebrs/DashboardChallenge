@@ -77,3 +77,32 @@ export const Select = styled.select`
 export const SelectsDiv = styled.div`
   display: flex;
 `;
+
+export const ClearButton = styled.button`
+  color: #5b43d9;
+  font-size: 16px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #5b43d9;
+  cursor: pointer;
+  margin-right: 20px;
+`;
+
+export const FilterButton = styled.button`
+  background: #5b43d9;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 119px;
+  height: 41px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+`;
+
+export const ButtonContainer = styled.div`
+  margin-left: 180px;
+  margin-top: 70px;
+`;
