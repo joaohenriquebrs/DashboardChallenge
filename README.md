@@ -23,14 +23,28 @@
     </ul>
 
 
-<h2>Para realizar o teste prático:</h2>
+<h2>Para realizar o teste prático do client side:</h2>
 <ol>
     <li>Clone o repositório:</li>
     <pre><code>git clone URL</code></pre>
+    <pre><code>cd client</code></pre>
     <li>Instale as dependências com:</li>
     <pre><code>yarn install</code></pre>
     <li>Rode a aplicação com:</li>
     <pre><code>yarn run dev</code></pre>
+    <li>Abra no navegador <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> ou 3001, depende da porta local que rodará</li>
+</ol>
+
+<h2>Para realizar o teste prático do server side:</h2>
+<ol>
+    <li>Clone o repositório:</li>
+    <pre><code>git clone URL</code></pre>
+    <pre><code>cd server</code></pre>
+    <pre><code>cd complaints-server</code></pre>
+    <li>Instale as dependências com:</li>
+    <pre><code>yarn install</code></pre>
+    <li>Rode a aplicação com:</li>
+    <pre><code>yarn start</code></pre>
     <li>Abra no navegador <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> ou 3001, depende da porta local que rodará</li>
 </ol>
 
