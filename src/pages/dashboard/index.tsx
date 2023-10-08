@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import {
   PageContainer,
   HeaderContainer,
@@ -20,10 +21,19 @@ import {
   BlockHeader,
   BlockContent,
   RightHeader,
-  RightContent
+  RightContent,
+  BlockImage,
+  BlockGraphic
 } from './styles';
 
-import { AgeRangeSlider } from 'components';
+import { AgeRangeSlider, InfoOcurrence } from 'components';
+import {
+  Circle1,
+  Circle2,
+  GraphicBars,
+  GraphicHeatmap,
+  GraphicGender
+} from 'assets';
 
 export const Dashboard = () => {
   return (
@@ -106,19 +116,58 @@ export const Dashboard = () => {
           <GridContainer>
             <Block>
               <BlockHeader>Momento</BlockHeader>
-              <BlockContent>Conteúdo do Bloco 1</BlockContent>
+              <BlockContent>
+                <BlockImage>
+                  <Image
+                    src={Circle1}
+                    alt="Gráfico em forma de circulo 
+                mostrando o percentual no momento da importunação"
+                  />
+                </BlockImage>
+                <BlockImage>
+                  <Image
+                    src={Circle2}
+                    alt="Gráfico em forma de circulo 
+                mostrando o percentual após a importunação"
+                  />
+                </BlockImage>
+              </BlockContent>
             </Block>
             <Block>
               <BlockHeader>Faixa Etária</BlockHeader>
-              <BlockContent>Conteúdo do Bloco 2</BlockContent>
+              <BlockContent>
+                <BlockGraphic>
+                  <Image
+                    src={GraphicBars}
+                    alt="Gráfico em barra mostrando o percentual 
+                de importunação de acordo com a faixa etária"
+                  />
+                </BlockGraphic>
+              </BlockContent>
             </Block>
             <Block>
               <BlockHeader>Horário</BlockHeader>
-              <BlockContent>Conteúdo do Bloco 3</BlockContent>
+              <BlockContent>
+                <BlockGraphic>
+                  <Image
+                    src={GraphicHeatmap}
+                    alt="Gráfico em formato de mapa de calor 
+                mostrando os horários com maior densidade importunação"
+                  />
+                </BlockGraphic>
+              </BlockContent>
             </Block>
             <Block>
               <BlockHeader>Gênero</BlockHeader>
-              <BlockContent>Conteúdo do Bloco 4</BlockContent>
+              <BlockContent>
+                <BlockGraphic>
+                  <Image
+                    src={GraphicGender}
+                    alt="Gráfico em barra mostrando o percentual 
+                de importunação de acordo com o gênero"
+                  />
+                </BlockGraphic>
+              </BlockContent>
             </Block>
           </GridContainer>
         </ContentContainer>
@@ -126,7 +175,14 @@ export const Dashboard = () => {
         <RightSection>
           <RightBlock>
             <RightHeader>Ocorrências</RightHeader>
-            <RightContent>Conteúdo do Bloco 4</RightContent>
+            <RightContent>
+              <InfoOcurrence />
+              <InfoOcurrence />
+              <InfoOcurrence />
+              <InfoOcurrence />
+              <InfoOcurrence />
+              <InfoOcurrence />
+            </RightContent>
           </RightBlock>
         </RightSection>
       </ContainerMain>

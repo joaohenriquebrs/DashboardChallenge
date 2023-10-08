@@ -268,6 +268,9 @@ export const BlockContent = styled.div`
   background-color: #303030;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const RightSection = styled.div`
@@ -304,4 +307,15 @@ export const RightContent = styled.div`
   height: 92.2%;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
 `;
+
+export const BlockImage = styled.div`
+  margin: 0px 35px;
+`;
+
+export const BlockGraphic = styled.div``;
