@@ -1,7 +1,0 @@
-node_modules/
-.editorconfig
-.eslintrc.json
-.prettierrc
-*.md
-*jest
-*github

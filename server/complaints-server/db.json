@@ -1,0 +1,1279 @@
+{
+  "complaints": [
+    {
+      "_id": "25240daf-47fd-4e2e-81fe-f2dba159997b",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2020-10-26T01:13:47.044Z",
+      "modified_at": "2020-03-12T21:53:52.779Z",
+      "created_at": "2021-02-15T19:20:50.835Z",
+      "description": "Complaint 1",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "man_trans",
+      "victim_age": 35
+    },
+    {
+      "_id": "30061eac-5fff-4cf2-86a7-49ea18d51ac0",
+      "place": "bus_terminal",
+      "at_moment": false,
+      "datetime": "2020-04-20T15:42:55.486Z",
+      "modified_at": "2023-02-10T10:54:31.475Z",
+      "created_at": "2023-08-07T20:44:43.116Z",
+      "description": "Complaint 2",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 60
+    },
+    {
+      "_id": "a30c85d3-df85-477f-924a-82ac9fa90134",
+      "place": "bus_stop",
+      "at_moment": false,
+      "datetime": "2021-10-04T21:41:25.719Z",
+      "modified_at": "2021-10-27T02:02:04.464Z",
+      "created_at": "2021-07-01T06:58:41.376Z",
+      "description": "Complaint 3",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 60
+    },
+    {
+      "_id": "26c6b3fc-060e-4de1-be53-51333bbe5d60",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2022-10-04T16:03:53.422Z",
+      "modified_at": "2021-10-09T22:05:10.903Z",
+      "created_at": "2022-03-22T23:43:53.507Z",
+      "description": "Complaint 4",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 0
+    },
+    {
+      "_id": "0a37e233-af39-4653-85ac-142ef32938bd",
+      "place": "bus",
+      "at_moment": false,
+      "datetime": "2022-01-08T18:46:49.912Z",
+      "modified_at": "2022-09-17T09:17:01.100Z",
+      "created_at": "2021-11-20T16:01:25.632Z",
+      "description": "Complaint 5",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "man_trans",
+      "victim_age": 37
+    },
+    {
+      "_id": "7d682802-06bd-49e4-a5b9-2fe128042c20",
+      "place": "bus_terminal",
+      "at_moment": false,
+      "datetime": "2020-10-22T04:22:17.078Z",
+      "modified_at": "2022-12-31T10:34:32.131Z",
+      "created_at": "2020-02-13T17:25:21.630Z",
+      "description": "Complaint 6",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 53
+    },
+    {
+      "_id": "5c8efc3d-e2ca-4037-9c8d-fa468a0f5bc2",
+      "place": "bus_terminal",
+      "at_moment": false,
+      "datetime": "2022-12-10T03:57:29.119Z",
+      "modified_at": "2020-02-05T00:39:49.920Z",
+      "created_at": "2022-10-19T11:46:30.896Z",
+      "description": "Complaint 7",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 39
+    },
+    {
+      "_id": "96da2710-68d6-4c39-9f7e-8312f62f983a",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2021-12-21T10:21:12.081Z",
+      "modified_at": "2022-05-29T07:30:04.199Z",
+      "created_at": "2021-04-20T18:29:15.670Z",
+      "description": "Complaint 8",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "man_trans",
+      "victim_age": 50
+    },
+    {
+      "_id": "6a1676a9-9112-4671-9868-4a6b88893464",
+      "place": "bus",
+      "at_moment": false,
+      "datetime": "2022-08-11T00:14:09.512Z",
+      "modified_at": "2022-04-25T10:57:42.631Z",
+      "created_at": "2021-09-09T00:05:26.709Z",
+      "description": "Complaint 9",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 65
+    },
+    {
+      "_id": "49c4c0e4-52ef-4ff8-92ef-76bf91b19f34",
+      "place": "bus",
+      "at_moment": false,
+      "datetime": "2022-12-26T09:41:40.377Z",
+      "modified_at": "2021-08-19T18:14:48.451Z",
+      "created_at": "2022-07-10T16:31:04.443Z",
+      "description": "Complaint 10",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 19
+    },
+    {
+      "_id": "df1337af-9d7e-4ce8-8634-9d66dc08b86e",
+      "place": "bus",
+      "at_moment": false,
+      "datetime": "2021-12-15T01:06:36.133Z",
+      "modified_at": "2022-05-01T07:52:51.078Z",
+      "created_at": "2021-12-20T18:04:18.660Z",
+      "description": "Complaint 11",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 34
+    },
+    {
+      "_id": "ed43603d-ea09-4b5a-a44a-5da8d2c44df4",
+      "place": "subway",
+      "at_moment": true,
+      "datetime": "2021-12-07T04:40:50.575Z",
+      "modified_at": "2023-01-16T11:35:31.303Z",
+      "created_at": "2021-09-10T16:52:39.792Z",
+      "description": "Complaint 12",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "man_trans",
+      "victim_age": 39
+    },
+    {
+      "_id": "1726f0d6-8e99-4de9-bd2a-251a46de0f22",
+      "place": "bus_terminal",
+      "at_moment": true,
+      "datetime": "2023-08-17T19:23:22.876Z",
+      "modified_at": "2023-09-25T07:46:46.125Z",
+      "created_at": "2020-07-21T04:10:24.216Z",
+      "description": "Complaint 13",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 3
+    },
+    {
+      "_id": "bc161508-b61d-4da2-bedc-0d5757ec3bc0",
+      "place": "subway",
+      "at_moment": true,
+      "datetime": "2021-08-29T12:45:51.827Z",
+      "modified_at": "2020-11-08T03:14:10.871Z",
+      "created_at": "2021-12-01T03:33:50.051Z",
+      "description": "Complaint 14",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 9
+    },
+    {
+      "_id": "9c1e4262-ffba-4c24-a2a2-d3b6deb641b7",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2020-01-30T06:36:16.153Z",
+      "modified_at": "2021-04-28T20:21:47.205Z",
+      "created_at": "2020-04-30T01:41:40.109Z",
+      "description": "Complaint 15",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 58
+    },
+    {
+      "_id": "9e64f4fe-6d7f-4a48-86c2-d9f212217b84",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2020-08-27T14:53:39.623Z",
+      "modified_at": "2022-08-16T13:25:54.552Z",
+      "created_at": "2022-12-10T03:39:01.967Z",
+      "description": "Complaint 16",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 37
+    },
+    {
+      "_id": "decd7833-4ad5-4b35-bb94-22434b5d3043",
+      "place": "bus_stop",
+      "at_moment": false,
+      "datetime": "2023-02-03T15:57:25.542Z",
+      "modified_at": "2021-03-03T01:30:58.633Z",
+      "created_at": "2022-08-14T13:05:25.733Z",
+      "description": "Complaint 17",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "man_trans",
+      "victim_age": 8
+    },
+    {
+      "_id": "fcc65aad-7440-464c-bcda-c2b60c0ddd35",
+      "place": "subway",
+      "at_moment": true,
+      "datetime": "2020-08-29T19:10:31.169Z",
+      "modified_at": "2020-01-09T14:24:52.455Z",
+      "created_at": "2022-12-16T12:32:19.557Z",
+      "description": "Complaint 18",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 41
+    },
+    {
+      "_id": "bc62b4b6-c77a-4ffc-8f86-c66b2c583361",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2022-10-16T17:35:03.901Z",
+      "modified_at": "2021-09-12T06:30:18.041Z",
+      "created_at": "2022-12-04T05:56:25.543Z",
+      "description": "Complaint 19",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "man_trans",
+      "victim_age": 10
+    },
+    {
+      "_id": "d84f5e65-0741-4e86-be8c-737d79d9ec2f",
+      "place": "subway",
+      "at_moment": true,
+      "datetime": "2020-04-12T22:43:59.218Z",
+      "modified_at": "2021-08-24T18:27:35.933Z",
+      "created_at": "2021-03-18T23:03:22.117Z",
+      "description": "Complaint 20",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 28
+    },
+    {
+      "_id": "f2d579bf-0842-4ff5-8d8a-39e82dd4bc28",
+      "place": "bus_terminal",
+      "at_moment": true,
+      "datetime": "2021-12-09T07:44:58.130Z",
+      "modified_at": "2020-07-16T00:33:12.242Z",
+      "created_at": "2022-12-04T12:22:57.940Z",
+      "description": "Complaint 21",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 65
+    },
+    {
+      "_id": "1b78bb01-9ac8-4e7d-ba5e-2eab272b6821",
+      "place": "bus",
+      "at_moment": false,
+      "datetime": "2022-02-07T00:46:10.420Z",
+      "modified_at": "2022-03-21T21:40:43.170Z",
+      "created_at": "2021-04-04T08:51:43.590Z",
+      "description": "Complaint 22",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 59
+    },
+    {
+      "_id": "6a0e480e-1ded-48f3-9171-af1f0a4a7cf0",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2021-10-26T22:44:27.316Z",
+      "modified_at": "2020-09-26T08:56:06.605Z",
+      "created_at": "2023-05-09T12:13:12.873Z",
+      "description": "Complaint 23",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 2
+    },
+    {
+      "_id": "1aeff25f-44ab-4f58-b69e-a7a8d0d17814",
+      "place": "bus_terminal",
+      "at_moment": false,
+      "datetime": "2022-11-16T07:55:46.593Z",
+      "modified_at": "2022-07-11T15:29:46.992Z",
+      "created_at": "2021-03-25T07:43:04.750Z",
+      "description": "Complaint 24",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 27
+    },
+    {
+      "_id": "0d961de5-cd60-47fb-8c5c-2b59d8063760",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2020-05-31T05:06:35.967Z",
+      "modified_at": "2022-10-02T11:32:36.792Z",
+      "created_at": "2022-04-12T14:50:03.420Z",
+      "description": "Complaint 25",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 19
+    },
+    {
+      "_id": "32e26fff-ac8f-4ef6-a824-655dded50709",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2022-02-28T21:33:37.103Z",
+      "modified_at": "2022-05-05T19:47:17.666Z",
+      "created_at": "2023-02-09T16:32:26.370Z",
+      "description": "Complaint 26",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 21
+    },
+    {
+      "_id": "3395c821-658a-4121-a797-54ee8d61f5cb",
+      "place": "bus_stop",
+      "at_moment": false,
+      "datetime": "2022-08-28T21:09:35.641Z",
+      "modified_at": "2021-02-03T05:23:37.708Z",
+      "created_at": "2020-11-26T21:02:19.016Z",
+      "description": "Complaint 27",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 67
+    },
+    {
+      "_id": "9559c042-261e-41e6-b016-c94446fabe23",
+      "place": "bus_terminal",
+      "at_moment": true,
+      "datetime": "2021-08-30T20:33:19.749Z",
+      "modified_at": "2020-08-12T23:40:12.204Z",
+      "created_at": "2020-06-16T20:18:51.384Z",
+      "description": "Complaint 28",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 10
+    },
+    {
+      "_id": "e6ad2a2c-20bd-4bab-acc0-e6005e09ebfa",
+      "place": "bus",
+      "at_moment": false,
+      "datetime": "2023-03-18T22:15:10.593Z",
+      "modified_at": "2022-04-09T00:22:06.932Z",
+      "created_at": "2022-12-09T14:07:24.086Z",
+      "description": "Complaint 29",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 57
+    },
+    {
+      "_id": "3949ece3-ca10-4c77-9098-d6fbff018da4",
+      "place": "bus_terminal",
+      "at_moment": true,
+      "datetime": "2021-09-13T22:27:36.209Z",
+      "modified_at": "2021-01-06T04:19:03.053Z",
+      "created_at": "2021-06-07T10:58:23.097Z",
+      "description": "Complaint 30",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 16
+    },
+    {
+      "_id": "0694c9a2-9c24-4dc1-9074-741775d02ff6",
+      "place": "bus_terminal",
+      "at_moment": false,
+      "datetime": "2021-12-28T04:34:55.627Z",
+      "modified_at": "2021-03-25T21:19:28.574Z",
+      "created_at": "2020-12-14T21:04:12.141Z",
+      "description": "Complaint 31",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 27
+    },
+    {
+      "_id": "cc191a52-4fde-4d68-937d-66cb62acc1aa",
+      "place": "bus_stop",
+      "at_moment": false,
+      "datetime": "2023-07-10T20:13:34.393Z",
+      "modified_at": "2021-09-20T13:51:14.424Z",
+      "created_at": "2023-08-13T21:29:25.885Z",
+      "description": "Complaint 32",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 57
+    },
+    {
+      "_id": "a846b260-6bce-40fa-a808-28be6c9a23ca",
+      "place": "subway",
+      "at_moment": true,
+      "datetime": "2022-08-08T13:40:37.812Z",
+      "modified_at": "2021-04-30T02:20:09.584Z",
+      "created_at": "2023-04-26T09:01:42.055Z",
+      "description": "Complaint 33",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 40
+    },
+    {
+      "_id": "4388c641-ff2e-4c35-92bd-abee35afee9d",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2022-11-25T00:45:57.886Z",
+      "modified_at": "2022-04-03T09:12:58.925Z",
+      "created_at": "2020-05-16T22:07:12.680Z",
+      "description": "Complaint 34",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 49
+    },
+    {
+      "_id": "28560b64-4492-47b1-9ddb-8eafcd148512",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2022-07-03T07:36:04.108Z",
+      "modified_at": "2023-06-25T01:56:42.273Z",
+      "created_at": "2020-08-20T01:08:52.384Z",
+      "description": "Complaint 35",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 14
+    },
+    {
+      "_id": "be5f15b6-237f-49f4-8e26-9376ebd0a242",
+      "place": "bus_terminal",
+      "at_moment": true,
+      "datetime": "2021-12-19T14:35:02.368Z",
+      "modified_at": "2020-01-21T09:41:35.531Z",
+      "created_at": "2021-11-01T09:26:29.564Z",
+      "description": "Complaint 36",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 4
+    },
+    {
+      "_id": "6fab1c3e-a280-461c-8a6c-86a38bc9a5b0",
+      "place": "subway",
+      "at_moment": false,
+      "datetime": "2021-12-16T03:30:20.631Z",
+      "modified_at": "2022-04-25T14:47:51.016Z",
+      "created_at": "2023-05-06T12:06:54.287Z",
+      "description": "Complaint 37",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 18
+    },
+    {
+      "_id": "5e7b68db-5c90-4778-a9de-8a2836d46c40",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2020-12-11T22:00:52.513Z",
+      "modified_at": "2021-12-02T21:34:04.935Z",
+      "created_at": "2022-07-05T01:35:52.123Z",
+      "description": "Complaint 38",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 24
+    },
+    {
+      "_id": "74caf341-9e25-4e9d-944d-f9f3b8c6fec8",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2020-11-18T02:35:50.324Z",
+      "modified_at": "2022-03-27T03:00:15.183Z",
+      "created_at": "2022-06-01T16:52:57.064Z",
+      "description": "Complaint 39",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 67
+    },
+    {
+      "_id": "583c0f3e-e58b-4977-a63f-af1d9b8010fe",
+      "place": "subway",
+      "at_moment": false,
+      "datetime": "2021-06-16T07:42:17.644Z",
+      "modified_at": "2023-09-03T13:46:27.674Z",
+      "created_at": "2021-06-11T23:48:51.489Z",
+      "description": "Complaint 40",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 65
+    },
+    {
+      "_id": "2c34703c-73a7-4d94-b119-640cf147bf60",
+      "place": "subway_terminal",
+      "at_moment": false,
+      "datetime": "2023-03-18T05:00:05.311Z",
+      "modified_at": "2021-07-26T01:40:27.704Z",
+      "created_at": "2021-07-01T05:12:15.207Z",
+      "description": "Complaint 41",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 28
+    },
+    {
+      "_id": "bef3d59e-25ce-47d5-8b5f-acf03cfcbfb7",
+      "place": "bus_terminal",
+      "at_moment": true,
+      "datetime": "2021-04-04T07:20:52.148Z",
+      "modified_at": "2023-01-21T16:59:02.917Z",
+      "created_at": "2020-11-05T11:29:38.555Z",
+      "description": "Complaint 42",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 19
+    },
+    {
+      "_id": "7c78a244-fd35-4999-aefc-6296e31a35cb",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2020-03-05T10:05:51.693Z",
+      "modified_at": "2021-08-18T07:05:23.129Z",
+      "created_at": "2023-08-28T05:04:27.996Z",
+      "description": "Complaint 43",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 10
+    },
+    {
+      "_id": "0e722239-a1dc-4593-989b-f90d27b56f1c",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2023-03-29T06:46:18.037Z",
+      "modified_at": "2021-11-19T03:49:09.767Z",
+      "created_at": "2020-11-18T23:33:55.248Z",
+      "description": "Complaint 44",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 67
+    },
+    {
+      "_id": "ebf279a9-2985-4ed8-b6c9-a24602de75fd",
+      "place": "subway",
+      "at_moment": true,
+      "datetime": "2020-12-27T17:02:21.500Z",
+      "modified_at": "2021-10-19T15:30:19.785Z",
+      "created_at": "2021-03-28T22:17:37.271Z",
+      "description": "Complaint 45",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 27
+    },
+    {
+      "_id": "ecb3ced5-5608-4ef3-b03a-49209ffe2b63",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2020-05-08T13:30:35.638Z",
+      "modified_at": "2022-01-03T00:09:23.350Z",
+      "created_at": "2022-08-29T23:20:48.943Z",
+      "description": "Complaint 46",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 8
+    },
+    {
+      "_id": "1eaba631-f3ac-4d78-acd7-e1ec50a9141b",
+      "place": "subway_terminal",
+      "at_moment": false,
+      "datetime": "2022-10-16T00:53:37.403Z",
+      "modified_at": "2022-06-01T19:44:23.414Z",
+      "created_at": "2022-10-17T18:37:19.957Z",
+      "description": "Complaint 47",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "man_trans",
+      "victim_age": 7
+    },
+    {
+      "_id": "9d7129d7-988c-491e-ac7f-7d34763bbe10",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2021-07-15T10:36:16.761Z",
+      "modified_at": "2022-12-29T04:00:38.959Z",
+      "created_at": "2022-10-10T04:55:08.765Z",
+      "description": "Complaint 48",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 61
+    },
+    {
+      "_id": "c0ce3354-0744-471c-a55f-f6060a1cd0ff",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2021-12-04T08:54:42.295Z",
+      "modified_at": "2021-10-05T02:33:39.146Z",
+      "created_at": "2023-06-17T08:41:30.969Z",
+      "description": "Complaint 49",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 39
+    },
+    {
+      "_id": "e0df84aa-e216-4ca7-af58-20bb7bd6a8a0",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2023-09-03T13:23:59.915Z",
+      "modified_at": "2020-01-16T13:48:49.385Z",
+      "created_at": "2022-01-07T23:44:42.153Z",
+      "description": "Complaint 50",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 8
+    },
+    {
+      "_id": "940cfece-55ec-4408-9a6e-421610485b92",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2022-09-16T06:36:15.269Z",
+      "modified_at": "2021-11-17T11:15:24.149Z",
+      "created_at": "2020-03-18T05:12:38.253Z",
+      "description": "Complaint 51",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 8
+    },
+    {
+      "_id": "7c34e58b-e0c1-4499-860a-dcaa8a78c41e",
+      "place": "bus_terminal",
+      "at_moment": true,
+      "datetime": "2021-12-04T19:18:54.775Z",
+      "modified_at": "2021-12-15T00:54:32.540Z",
+      "created_at": "2021-11-13T18:41:45.238Z",
+      "description": "Complaint 52",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 11
+    },
+    {
+      "_id": "e42f0c42-8766-4518-9ec2-ccc451573fbd",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2023-07-10T01:25:22.753Z",
+      "modified_at": "2021-02-20T00:30:22.576Z",
+      "created_at": "2021-05-13T10:46:54.584Z",
+      "description": "Complaint 53",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 47
+    },
+    {
+      "_id": "2a516879-362a-4be6-b797-652427770614",
+      "place": "bus",
+      "at_moment": false,
+      "datetime": "2020-03-30T07:16:51.701Z",
+      "modified_at": "2023-07-05T06:56:30.828Z",
+      "created_at": "2021-01-02T06:08:17.617Z",
+      "description": "Complaint 54",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "man_trans",
+      "victim_age": 40
+    },
+    {
+      "_id": "5e1d9bb7-620d-4fea-8c4f-5c09f27a3a95",
+      "place": "subway",
+      "at_moment": true,
+      "datetime": "2020-10-26T12:51:19.997Z",
+      "modified_at": "2020-07-17T01:55:03.344Z",
+      "created_at": "2021-01-22T05:25:57.948Z",
+      "description": "Complaint 55",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 61
+    },
+    {
+      "_id": "9996e15e-4221-4e73-b5e9-751d9ae7ebb1",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2020-05-07T19:52:03.477Z",
+      "modified_at": "2023-09-06T13:17:31.526Z",
+      "created_at": "2020-04-20T10:57:23.954Z",
+      "description": "Complaint 56",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 55
+    },
+    {
+      "_id": "51f19c9b-c4c9-4ae8-b1c5-1467499c71f1",
+      "place": "bus_terminal",
+      "at_moment": true,
+      "datetime": "2023-04-27T20:58:20.985Z",
+      "modified_at": "2022-07-16T03:39:52.855Z",
+      "created_at": "2022-03-17T17:02:11.626Z",
+      "description": "Complaint 57",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 8
+    },
+    {
+      "_id": "62ad5b0e-73c3-4c5d-9dee-bc97330e7618",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2021-11-13T23:19:57.979Z",
+      "modified_at": "2021-02-06T18:39:29.842Z",
+      "created_at": "2020-03-10T17:07:59.959Z",
+      "description": "Complaint 58",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 63
+    },
+    {
+      "_id": "ec2cccbd-36b2-4ade-8a43-cda1f432fe3b",
+      "place": "bus_stop",
+      "at_moment": false,
+      "datetime": "2022-10-02T23:59:32.961Z",
+      "modified_at": "2023-05-14T02:58:19.007Z",
+      "created_at": "2023-09-06T16:21:30.179Z",
+      "description": "Complaint 59",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 23
+    },
+    {
+      "_id": "1ae63b30-5d9d-43b6-851a-e6d89b70a525",
+      "place": "subway",
+      "at_moment": true,
+      "datetime": "2022-02-02T02:18:55.076Z",
+      "modified_at": "2020-07-17T16:51:08.669Z",
+      "created_at": "2023-10-05T17:48:25.342Z",
+      "description": "Complaint 60",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 37
+    },
+    {
+      "_id": "41e98ca9-aeeb-4856-90fb-d091404324d9",
+      "place": "bus_stop",
+      "at_moment": false,
+      "datetime": "2021-06-18T13:15:12.865Z",
+      "modified_at": "2020-01-24T10:32:35.762Z",
+      "created_at": "2021-02-28T02:32:36.869Z",
+      "description": "Complaint 61",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 48
+    },
+    {
+      "_id": "afa7226f-fc7f-45e8-98b9-eae68719d248",
+      "place": "bus",
+      "at_moment": true,
+      "datetime": "2020-08-11T10:42:24.427Z",
+      "modified_at": "2021-12-06T08:11:12.877Z",
+      "created_at": "2021-04-10T05:02:53.883Z",
+      "description": "Complaint 62",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 32
+    },
+    {
+      "_id": "b8335c8e-c24e-4aa9-a115-8c15c844be89",
+      "place": "bus_stop",
+      "at_moment": false,
+      "datetime": "2022-07-18T21:33:38.835Z",
+      "modified_at": "2020-12-11T11:19:16.384Z",
+      "created_at": "2020-03-18T10:08:52.873Z",
+      "description": "Complaint 63",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 26
+    },
+    {
+      "_id": "59b4aa43-8dfc-4f7e-8715-d83e719cee23",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2021-12-04T08:03:15.848Z",
+      "modified_at": "2021-05-13T18:29:35.446Z",
+      "created_at": "2022-09-16T10:28:13.837Z",
+      "description": "Complaint 64",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 47
+    },
+    {
+      "_id": "d961648a-b465-42ca-a342-5ac6fb10dd4a",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2023-09-10T04:24:54.661Z",
+      "modified_at": "2022-02-25T20:57:58.035Z",
+      "created_at": "2020-05-22T22:21:26.369Z",
+      "description": "Complaint 65",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 19
+    },
+    {
+      "_id": "75bab686-e24b-4bfc-b2c0-e5cf82085a52",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2023-09-09T12:06:35.142Z",
+      "modified_at": "2020-04-30T15:32:03.265Z",
+      "created_at": "2022-01-30T20:36:13.971Z",
+      "description": "Complaint 66",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 27
+    },
+    {
+      "_id": "b2becf2d-94d2-4a55-b62d-343ca9be189f",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2022-01-20T07:03:21.653Z",
+      "modified_at": "2022-01-15T07:00:58.103Z",
+      "created_at": "2023-05-09T05:13:01.768Z",
+      "description": "Complaint 67",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 60
+    },
+    {
+      "_id": "90aaf215-b635-4c73-9998-172719511ff8",
+      "place": "subway_terminal",
+      "at_moment": false,
+      "datetime": "2020-10-10T08:27:52.319Z",
+      "modified_at": "2023-07-04T00:53:40.642Z",
+      "created_at": "2021-08-11T06:33:06.153Z",
+      "description": "Complaint 68",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "man_cis",
+      "victim_age": 30
+    },
+    {
+      "_id": "48d8185b-f031-4b9b-9835-c77bf73949e2",
+      "place": "bus_terminal",
+      "at_moment": false,
+      "datetime": "2022-05-23T22:31:18.376Z",
+      "modified_at": "2021-04-29T21:15:48.211Z",
+      "created_at": "2021-07-31T08:34:41.948Z",
+      "description": "Complaint 69",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 28
+    },
+    {
+      "_id": "605f4a25-4a94-41a1-be3e-d62185ccd815",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2020-04-28T04:22:22.876Z",
+      "modified_at": "2022-12-07T19:41:42.104Z",
+      "created_at": "2023-02-16T22:48:04.943Z",
+      "description": "Complaint 70",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "stalking"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 13
+    },
+    {
+      "_id": "bddcb589-6d83-48d7-a9a0-ad62e57acb4f",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2022-04-24T15:35:39.155Z",
+      "modified_at": "2022-04-24T21:56:16.810Z",
+      "created_at": "2022-10-30T14:43:17.519Z",
+      "description": "Complaint 71",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "verbal_aggression"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 52
+    },
+    {
+      "_id": "228d3361-5d2e-4c70-aa15-c4469fb44656",
+      "place": "subway_terminal",
+      "at_moment": false,
+      "datetime": "2022-11-25T02:52:48.291Z",
+      "modified_at": "2022-09-13T05:40:21.986Z",
+      "created_at": "2020-01-10T14:43:07.171Z",
+      "description": "Complaint 72",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "woman_cis",
+      "victim_age": 54
+    },
+    {
+      "_id": "40a3a5ef-1060-49a1-8ad5-acf178489a07",
+      "place": "subway_terminal",
+      "at_moment": true,
+      "datetime": "2023-09-29T12:54:33.117Z",
+      "modified_at": "2021-01-08T12:04:49.456Z",
+      "created_at": "2021-11-16T10:06:23.786Z",
+      "description": "Complaint 73",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "groping"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 34
+    },
+    {
+      "_id": "18e23d4b-d5dc-46b3-a7de-405fafa220d1",
+      "place": "bus_stop",
+      "at_moment": false,
+      "datetime": "2021-05-02T02:57:37.558Z",
+      "modified_at": "2021-04-13T02:50:07.648Z",
+      "created_at": "2020-05-25T14:35:32.051Z",
+      "description": "Complaint 74",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "physical_aggression"
+      ],
+      "victim_gender": "non-binary",
+      "victim_age": 35
+    },
+    {
+      "_id": "51f333e2-f23f-4cee-8e3a-59ac59b7cd68",
+      "place": "bus_stop",
+      "at_moment": true,
+      "datetime": "2022-08-27T02:10:08.860Z",
+      "modified_at": "2022-05-21T06:37:54.065Z",
+      "created_at": "2023-08-16T19:18:40.611Z",
+      "description": "Complaint 75",
+      "situation": [
+        "in_progress"
+      ],
+      "type": [
+        "unwanted_photos"
+      ],
+      "victim_gender": "woman_trans",
+      "victim_age": 52
+    }
+  ]
+}
