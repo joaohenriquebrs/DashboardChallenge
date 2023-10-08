@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 import {
   PageContainer,
@@ -26,7 +26,7 @@ import {
   BlockGraphic
 } from './styles';
 
-import { AgeRangeSlider, InfoOcurrence } from 'components';
+import { AgeRangeSlider, InfoOcurrence, FetchComplaints } from 'components';
 import {
   Circle1,
   Circle2,
@@ -36,6 +36,21 @@ import {
 } from 'assets';
 
 export const Dashboard = () => {
+  useEffect(() => {
+    const filters = {
+      place: 'bus_stop',
+      _sort: 'datetime',
+    };
+
+    FetchComplaints(filters)
+      .then((complaints) => {
+        console.log(complaints);
+      })
+      .catch((error) => {
+        console.error('Erro ao buscar reclamações:', error);
+      });
+  }, []);
+
   return (
     <>
       <PageContainer>
