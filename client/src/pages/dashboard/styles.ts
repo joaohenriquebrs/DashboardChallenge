@@ -103,21 +103,6 @@ export const FilterSelect = styled.div`
   }
 `;
 
-export const Select = styled.select`
-  width: 100%;
-  height: 100%;
-  border: none;
-  background: transparent;
-  color: #453a8d;
-  leading-trim: both;
-  text-edge: cap;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 20px;
-  background-color: #f3eeff;
-`;
-
 export const SelectsDiv = styled.div`
   display: flex;
 `;

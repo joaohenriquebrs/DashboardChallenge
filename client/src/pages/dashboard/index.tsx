@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import {
   PageContainer,
@@ -7,7 +7,6 @@ import {
   FilterLabel,
   FilterContainer,
   FilterSelect,
-  Select,
   SelectsDiv,
   ClearButton,
   FilterButton,
@@ -26,7 +25,7 @@ import {
   BlockGraphic
 } from './styles';
 
-import { AgeRangeSlider, InfoOcurrence, FetchComplaints } from 'components';
+import { AgeRangeSlider, InfoOcurrence, FetchComplaints, FilterSelectComponent } from 'components';
 import {
   Circle1,
   Circle2,
@@ -36,9 +35,21 @@ import {
 } from 'assets';
 
 export const Dashboard = () => {
+  const [selectedFilters, setSelectedFilters] = useState({
+    place: 'all',
+    type: 'all',
+    moment: 'all',
+    gender: 'all',
+    ageRange: [1, 90],
+  });
+
   useEffect(() => {
     const filters = {
-      place: 'bus_stop',
+      place: selectedFilters.place !== 'all' ? selectedFilters.place : undefined,
+      type: selectedFilters.type !== 'all' ? selectedFilters.type : undefined,
+      moment: selectedFilters.moment !== 'all' ? selectedFilters.moment : undefined,
+      gender: selectedFilters.gender !== 'all' ? selectedFilters.gender : undefined,
+      ageRange: selectedFilters.ageRange,
       _sort: 'datetime',
     };
 
@@ -49,7 +60,23 @@ export const Dashboard = () => {
       .catch((error) => {
         console.error('Erro ao buscar reclamações:', error);
       });
-  }, []);
+  }, [selectedFilters]);
+
+  const handleClearFilters = () => {
+    setSelectedFilters({
+      place: 'all',
+      type: 'all',
+      moment: 'all',
+      gender: 'all',
+      ageRange: [1, 90],
+    });
+  };
+
+  const handleApplyFilters = () => {
+    // Função para aplicar os filtros selecionados
+    // Já está usando os filtros em selectedFilters no useEffect
+  };
+
 
   return (
     <>
@@ -60,56 +87,76 @@ export const Dashboard = () => {
             <FilterContainer>
               <FilterLabel>Local das ocorrências</FilterLabel>
               <FilterSelect>
-                <Select>
-                  <option value="all">Todos os locais</option>
-                  <option value="bus">Ônibus</option>
-                  <option value="bus_terminal">Terminal de Ônibus</option>
-                  <option value="subway">Metrô</option>
-                  <option value="bus_stop">Parada de ônibus</option>
-                  <option value="subway_terminal">Terminal de metrô</option>
-                </Select>
+                <FilterSelectComponent
+                  label=""
+                  options={[
+                    { value: 'all', label: 'Todos os locais' },
+                    { value: 'bus', label: 'Ônibus' },
+                    { value: 'bus_terminal', label: 'Terminal de Ônibus' },
+                    { value: 'subway', label: 'Metrô' },
+                    { value: 'bus_stop', label: 'Parada de ônibus' },
+                    { value: 'subway_terminal', label: 'Terminal de metrô' },
+                  ]}
+                  selectedValue={selectedFilters.place}
+                  onChange={(value: string) => setSelectedFilters({ ...selectedFilters, place: value })}
+                />
               </FilterSelect>
             </FilterContainer>
 
             <FilterContainer>
               <FilterLabel>Tipo de importunação</FilterLabel>
               <FilterSelect>
-                <Select>
-                  <option value="all">Todos</option>
-                  <option value="groping">Abuso sexual</option>
-                  <option value="stalking">Perseguição</option>
-                  <option value="unwanted_photos">Fotos indesejadas</option>
-                  <option value="verbal_aggression">Agressão verbal</option>
-                  <option value="physical_aggression">Agressão física</option>
-                </Select>
+                <FilterSelectComponent
+                  label=""
+                  options={[
+                    { value: 'all', label: 'Todos' },
+                    { value: 'groping', label: 'Abuso sexual' },
+                    { value: 'stalking', label: 'Perseguição' },
+                    { value: 'unwanted_photos', label: 'Fotos indesejadas' },
+                    { value: 'verbal_aggression', label: 'Agressão verbal' },
+                    { value: 'physical_aggression', label: 'Agressão física' },
+                  ]}
+                  selectedValue={selectedFilters.type}
+                  onChange={(value: string) => setSelectedFilters({ ...selectedFilters, type: value })}
+                />
               </FilterSelect>
             </FilterContainer>
 
             <FilterContainer>
               <FilterLabel>Momento da importunação</FilterLabel>
               <FilterSelect>
-                <Select>
-                  <option value="all">Todos</option>
-                  <option value="morning">Manhã</option>
-                  <option value="afternoon">Tarde</option>
-                  <option value="evening">Noite</option>
-                  <option value="late_night">Madrugada</option>
-                  <option value="unknown">Desconhecido</option>
-                </Select>
+                <FilterSelectComponent
+                  label=""
+                  options={[
+                    { value: 'all', label: 'Todos' },
+                    { value: 'morning', label: 'Manhã' },
+                    { value: 'afternoon', label: 'Tarde' },
+                    { value: 'evening', label: 'Noite' },
+                    { value: 'late_night', label: 'Madrugada' },
+                    { value: 'unknown', label: 'Desconhecido' },
+                  ]}
+                  selectedValue={selectedFilters.moment}
+                  onChange={(value: string) => setSelectedFilters({ ...selectedFilters, moment: value })}
+                />
               </FilterSelect>
             </FilterContainer>
 
             <FilterContainer>
               <FilterLabel>Gênero</FilterLabel>
               <FilterSelect>
-                <Select>
-                  <option value="all">Todos</option>
-                  <option value="woman_cis">Mulher Cis</option>
-                  <option value="man_cis">Homem Cis</option>
-                  <option value="woman_trans">Mulher Trans</option>
-                  <option value="man_trans">Homem Trans</option>
-                  <option value="non-binary">Não-Binário</option>
-                </Select>
+                <FilterSelectComponent
+                  label=""
+                  options={[
+                    { value: 'all', label: 'Todos' },
+                    { value: 'woman_cis', label: 'Mulher Cis' },
+                    { value: 'man_cis', label: 'Homem Cis' },
+                    { value: 'woman_trans', label: 'Mulher Trans' },
+                    { value: 'man_trans', label: 'Homem Trans' },
+                    { value: 'non-binary', label: 'Não-Binário' },
+                  ]}
+                  selectedValue={selectedFilters.gender}
+                  onChange={(value: string) => setSelectedFilters({ ...selectedFilters, gender: value })}
+                />
               </FilterSelect>
             </FilterContainer>
 
@@ -119,8 +166,8 @@ export const Dashboard = () => {
             </FilterContainer>
 
             <ButtonContainer>
-              <ClearButton>Limpar filtro</ClearButton>
-              <FilterButton>Filtrar</FilterButton>
+              <ClearButton onClick={handleClearFilters}>Limpar filtro</ClearButton>
+              <FilterButton onClick={handleApplyFilters}>Filtrar</FilterButton>
             </ButtonContainer>
           </SelectsDiv>
         </HeaderContainer>
