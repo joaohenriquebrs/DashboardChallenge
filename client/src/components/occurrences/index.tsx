@@ -13,22 +13,40 @@ import {
   BottomRow
 } from './styles';
 
-export const InfoOcurrence = () => {
+interface InfoOcurrenceProps {
+  id: string;
+  time: string;
+  data: string;
+  person: string;
+  place: string;
+  type: string;
+  category: string;
+}
+
+export const InfoOcurrence: React.FC<InfoOcurrenceProps> = ({
+  id,
+  time,
+  data,
+  person,
+  place,
+  type,
+  category
+}) => {
   return (
     <>
       <InfoBlock>
         <TopRow>
-          <InfoTextId>IDD1967320929002...</InfoTextId>
-          <InfoTextTime>Agora &gt;</InfoTextTime>
+          <InfoTextId>{id}</InfoTextId>
+          <InfoTextTime>{time}</InfoTextTime>
         </TopRow>
         <MiddleRow>
-          <InfoTextData>04/10/23</InfoTextData>
-          <InfoTextPerson>•ㅤTestemunhaㅤ•</InfoTextPerson>
-          <InfoTextPlace>Ônibus</InfoTextPlace>
+          <InfoTextData>{data}</InfoTextData>
+          <InfoTextPerson>•ㅤ{person}ㅤ•</InfoTextPerson>
+          <InfoTextPlace>{place}</InfoTextPlace>
         </MiddleRow>
         <BottomRow>
-          <InfoTextType>Intimidação</InfoTextType>
-          <InfoTextCategory>Perseguição</InfoTextCategory>
+          <InfoTextType>{type}</InfoTextType>
+          <InfoTextCategory>{category}</InfoTextCategory>
         </BottomRow>
       </InfoBlock>
     </>

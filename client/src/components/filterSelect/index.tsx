@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledSelect = styled.select`
-  width: 100%;
+  width: 120%;
   height: 100%;
   border: none;
   background: transparent;
@@ -12,6 +12,22 @@ const StyledSelect = styled.select`
   font-weight: 400;
   line-height: 20px;
   background-color: #f3eeff;
+
+  @media (min-width: 1540px) and (max-width: 1730px) {
+    width: 110%;
+  }
+
+  @media (min-width: 1420px) and (max-width: 1540px) {
+    width: 100%;
+  }
+
+  @media (min-width: 1220px) and (max-width: 1420px) {
+    width: 100%;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1220px) {
+    width: 100%;
+  }
 `;
 
 interface Option {

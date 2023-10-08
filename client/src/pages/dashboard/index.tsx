@@ -34,6 +34,16 @@ import {
   GraphicGender
 } from 'assets';
 
+interface Occurrence {
+  id: string;
+  time: string;
+  data: string;
+  person: string;
+  place: string;
+  type: string;
+  category: string;
+}
+
 export const Dashboard = () => {
   const [selectedFilters, setSelectedFilters] = useState({
     place: 'all',
@@ -77,6 +87,18 @@ export const Dashboard = () => {
     // Já está usando os filtros em selectedFilters no useEffect
   };
 
+  const [occurrences, setOccurrences] = useState<Occurrence[]>([]);
+
+  useEffect(() => {
+    // Chamada para buscar as ocorrências do servidor e atualizar o estado 'occurrences'
+    FetchComplaints(selectedFilters)
+      .then((complaints) => {
+        setOccurrences(complaints);
+      })
+      .catch((error) => {
+        console.error('Erro ao buscar reclamações:', error);
+      });
+  }, [selectedFilters]);
 
   return (
     <>
@@ -238,12 +260,17 @@ export const Dashboard = () => {
           <RightBlock>
             <RightHeader>Ocorrências</RightHeader>
             <RightContent>
-              <InfoOcurrence />
-              <InfoOcurrence />
-              <InfoOcurrence />
-              <InfoOcurrence />
-              <InfoOcurrence />
-              <InfoOcurrence />
+              {occurrences.map((occurrence) => (
+                <InfoOcurrence
+                  id={occurrence.id}
+                  time={occurrence.time}
+                  data={occurrence.data}
+                  person={occurrence.person}
+                  place={occurrence.place}
+                  type={occurrence.type}
+                  category={occurrence.category}
+                />
+              ))}
             </RightContent>
           </RightBlock>
         </RightSection>
