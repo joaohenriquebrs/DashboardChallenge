@@ -206,14 +206,14 @@ export const Dashboard = () => {
                     src={Circle1}
                     alt="Gráfico em forma de circulo 
                 mostrando o percentual no momento da importunação"
-                  />
+                    layout='responsive' />
                 </BlockImage>
                 <BlockImage>
                   <Image
                     src={Circle2}
                     alt="Gráfico em forma de circulo 
                 mostrando o percentual após a importunação"
-                  />
+                    layout='responsive' />
                 </BlockImage>
               </BlockContent>
             </Block>
@@ -225,7 +225,7 @@ export const Dashboard = () => {
                     src={GraphicBars}
                     alt="Gráfico em barra mostrando o percentual 
                 de importunação de acordo com a faixa etária"
-                  />
+                    layout='responsive' />
                 </BlockGraphic>
               </BlockContent>
             </Block>
@@ -237,7 +237,7 @@ export const Dashboard = () => {
                     src={GraphicHeatmap}
                     alt="Gráfico em formato de mapa de calor 
                 mostrando os horários com maior densidade importunação"
-                  />
+                    layout='responsive' />
                 </BlockGraphic>
               </BlockContent>
             </Block>
@@ -249,7 +249,7 @@ export const Dashboard = () => {
                     src={GraphicGender}
                     alt="Gráfico em barra mostrando o percentual 
                 de importunação de acordo com o gênero"
-                  />
+                    layout='responsive' />
                 </BlockGraphic>
               </BlockContent>
             </Block>

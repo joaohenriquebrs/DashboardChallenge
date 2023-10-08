@@ -234,6 +234,10 @@ export const Block = styled.div`
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 1060px) and (max-width: 1730px) {
+    width: 45%;
+  }
 `;
 
 export const BlockHeader = styled.div`
@@ -303,4 +307,5 @@ export const BlockImage = styled.div`
   margin: 0px 35px;
 `;
 
-export const BlockGraphic = styled.div``;
+export const BlockGraphic = styled.div`
+`;
